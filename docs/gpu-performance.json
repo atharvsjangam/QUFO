@@ -1,0 +1,16 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cuda_runtime": "12.8",
+  "pytorch": "2.8.0+cu128",
+  "question": "How does resource-specific consent limit an app's permissions?",
+  "previous_cpu_observation_seconds": 23.971,
+  "gpu_cold_seconds": 9.569,
+  "gpu_warm_seconds": [
+    1.893,
+    2.102
+  ],
+  "verified_model_device": "cuda:0",
+  "verified_embedding_device": "cuda:0",
+  "note": "Observed end-to-end times for one question on one laptop. The previous CPU observation includes lazy loading; GPU cold and warm measurements are reported separately. Not a general benchmark."
+}

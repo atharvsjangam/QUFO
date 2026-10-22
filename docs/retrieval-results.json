@@ -1,0 +1,276 @@
+{
+  "passed": 28,
+  "total": 28,
+  "metric": "Expected source category appears in top 3; unrelated questions abstain.",
+  "note": "Curated smoke evaluation, not a general benchmark or an answer-accuracy score.",
+  "results": [
+    {
+      "question": "What replaced Electron in the new Teams architecture?",
+      "expected": "Architecture",
+      "retrieved_categories": [
+        "Architecture",
+        "Security",
+        "Integration"
+      ],
+      "passed": true
+    },
+    {
+      "question": "Which framework replaced AngularJS?",
+      "expected": "Architecture",
+      "retrieved_categories": [
+        "Architecture",
+        "Known limitations",
+        "Security"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How is GraphQL used in the client data layer?",
+      "expected": "Architecture",
+      "retrieved_categories": [
+        "Architecture",
+        "Permissions",
+        "App design"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What connects the application components through IPC?",
+      "expected": "Architecture",
+      "retrieved_categories": [
+        "Architecture",
+        "Meetings",
+        "App manifest"
+      ],
+      "passed": true
+    },
+    {
+      "question": "Why separate data handling from rendering?",
+      "expected": "Architecture",
+      "retrieved_categories": [
+        "Architecture",
+        "Adaptive cards",
+        "Meetings"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What does Fluent UI v9 contribute?",
+      "expected": "Architecture",
+      "retrieved_categories": [
+        "Architecture",
+        "App design",
+        "Architecture"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What were the performance goals for the preview?",
+      "expected": "Performance",
+      "retrieved_categories": [
+        "Performance",
+        "Meetings",
+        "App manifest"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How much memory did the new design aim to use?",
+      "expected": "Performance",
+      "retrieved_categories": [
+        "Performance",
+        "Architecture",
+        "Security"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What launch and meeting join problems were targeted?",
+      "expected": "Performance",
+      "retrieved_categories": [
+        "Performance",
+        "Meetings",
+        "Meetings"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How did Microsoft Intune help deployment and updates?",
+      "expected": "Performance",
+      "retrieved_categories": [
+        "Performance",
+        "App manifest",
+        "Milestone"
+      ],
+      "passed": true
+    },
+    {
+      "question": "Were the performance statements measured by QUFO?",
+      "expected": "Performance",
+      "retrieved_categories": [
+        "Performance",
+        "Bots",
+        "Architecture"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How does WebView2 receive independent runtime updates?",
+      "expected": "Security",
+      "retrieved_categories": [
+        "Security",
+        "Integration",
+        "Integration"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How did the native host change security considerations?",
+      "expected": "Security",
+      "retrieved_categories": [
+        "Security",
+        "Architecture",
+        "Meetings"
+      ],
+      "passed": true
+    },
+    {
+      "question": "Does the security architecture prove there are no vulnerabilities?",
+      "expected": "Security",
+      "retrieved_categories": [
+        "Security",
+        "Architecture",
+        "Authentication"
+      ],
+      "passed": true
+    },
+    {
+      "question": "When did Windows and Mac reach general availability?",
+      "expected": "Milestone",
+      "retrieved_categories": [
+        "Milestone",
+        "Performance",
+        "Architecture"
+      ],
+      "passed": true
+    },
+    {
+      "question": "Were government cloud and VDI generally available on October 5?",
+      "expected": "Milestone",
+      "retrieved_categories": [
+        "Milestone",
+        "Architecture",
+        "Deployment"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How did update channels affect the rollout schedule?",
+      "expected": "Milestone",
+      "retrieved_categories": [
+        "Milestone",
+        "App manifest",
+        "Permissions"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How does tab single sign-on use Microsoft Entra ID tokens?",
+      "expected": "Authentication",
+      "retrieved_categories": [
+        "Authentication",
+        "Authentication",
+        "Troubleshooting"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What is resource-specific consent and how are permissions scoped?",
+      "expected": "Permissions",
+      "retrieved_categories": [
+        "Permissions",
+        "Permissions",
+        "App manifest"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What are the prerequisites for hosting a tab in an iframe?",
+      "expected": "Known limitations",
+      "retrieved_categories": [
+        "Known limitations",
+        "Tabs",
+        "Tabs"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What is Live Share and how is collaboration synchronized?",
+      "expected": "Meetings",
+      "retrieved_categories": [
+        "Meetings",
+        "Meetings",
+        "Meetings"
+      ],
+      "passed": true
+    },
+    {
+      "question": "Which fields define the Teams app manifest?",
+      "expected": "App manifest",
+      "retrieved_categories": [
+        "App manifest",
+        "App manifest",
+        "Permissions"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What causes Teams Store validation failures?",
+      "expected": "Known limitations",
+      "retrieved_categories": [
+        "Known limitations",
+        "Known limitations",
+        "App manifest"
+      ],
+      "passed": true
+    },
+    {
+      "question": "How does an incoming webhook send data to a Teams channel?",
+      "expected": "Integration",
+      "retrieved_categories": [
+        "Integration",
+        "Integration",
+        "Integration"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What permissions are required to access browser devices?",
+      "expected": "Permissions",
+      "retrieved_categories": [
+        "Permissions",
+        "Permissions",
+        "Permissions"
+      ],
+      "passed": true
+    },
+    {
+      "question": "What is the recipe for chocolate tiramisu?",
+      "expected": null,
+      "retrieved_categories": [],
+      "passed": true
+    },
+    {
+      "question": "How many moons orbit Neptune?",
+      "expected": null,
+      "retrieved_categories": [],
+      "passed": true
+    },
+    {
+      "question": "What caused the volcanic eruption at Vesuvius?",
+      "expected": null,
+      "retrieved_categories": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "qufo-ui-checks",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Optional browser verification for QUFO; the application itself needs no Node build.",
+  "scripts": {
+    "test:ui": "node scripts/check-ui.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.0"
+  }
+}

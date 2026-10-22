@@ -1,0 +1,4 @@
+-r requirements-core.txt
+sentence-transformers>=3,<7
+transformers>=4.45,<6
+torch>=2.2,<3

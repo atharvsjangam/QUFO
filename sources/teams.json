@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Microsoft Teams · A new client architecture",
+    "date": "2023-03-27",
+    "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/microsoft-teams-advantages-of-the-new-architecture/3775704",
+    "category": "Architecture",
+    "text": "Microsoft described rebuilding the Teams desktop client around a different technical architecture. The new native host uses Edge WebView2 instead of the previous Electron-based host. React replaces AngularJS for the user interface, alongside TypeScript and Fluent UI. GraphQL abstracts the client data layer, and inter-process communication connects components. The redesign separates data handling from rendering so work can move away from the main user-interface thread. The engineering team evaluated technologies, built prototypes, and benchmarked alternatives before choosing the architecture. Fluent UI v9 is part of the user-interface modernization. These are documented architectural decisions; the article does not disclose an internal project budget, employee hours, or individual task assignments. This record is a QUFO-authored research note about Microsoft's public engineering article, not an internal Microsoft work report."
+  },
+  {
+    "title": "Microsoft Teams · Preview and performance goals",
+    "date": "2023-03-27",
+    "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/introducing-the-new-microsoft-teams-now-in-preview/3774406",
+    "category": "Performance",
+    "text": "Microsoft announced the public preview of its rebuilt Teams application for Windows on March 27, 2023. The stated engineering goal was twice the speed while using half the system resources. The redesign targeted user concerns including application launch, joining meetings, and memory consumption. Microsoft described resource optimization as a way to leave more memory and disk space for other applications. Deployment and updates could be managed with administrative tools including Microsoft Intune. Preview availability and feature coverage depended on the release program; a preview announcement is not evidence that all capabilities were generally available. The performance statements are Microsoft's published targets and comparisons, not measurements made by QUFO. The public announcement does not provide development expenditure, staff hours, or a return-on-investment calculation."
+  },
+  {
+    "title": "Microsoft Teams · Security in the rebuilt client",
+    "date": "2023-04-25",
+    "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/what%E2%80%99s-new-for-security-in-the-new-microsoft-teams/3804261",
+    "category": "Security",
+    "text": "Microsoft's April 25, 2023 security article describes security improvements in the rebuilt Teams desktop client. Using WebView2 allows the web runtime to receive updates independently of the Teams application and to be shared with other applications. The native host reduces reliance on a general-purpose JavaScript runtime compared with the previous architecture. The rebuilt web interface uses React. The article connects the hybrid native and web design with process and memory safety considerations, while recognizing that web-layer security remains important. These architectural changes are security engineering measures, not proof that the product has no vulnerabilities. The article does not identify QUFO users as Microsoft employees and does not supply private incidents, internal security task owners, or development costs."
+  },
+  {
+    "title": "Microsoft Teams · General availability and rollout",
+    "date": "2023-10-05",
+    "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/enable-the-new-microsoft-teams-for-your-organization-today/3945599",
+    "category": "Milestone",
+    "text": "On October 5, 2023 Microsoft announced general availability of the new Teams application for Windows and Mac, including education customers. Government cloud and Virtual Desktop Infrastructure customers were entering public preview at that point. Administrators could influence adoption through Teams update policies, Microsoft 365 application deployment, or bulk installation. The article describes different rollout schedules for different update channels; it does not establish a single deadline for every organization. Its published schedule put some default-client transitions in late 2023 and others in January 2024. Existing organizations could initially switch from the classic application to the new client. This is a historical rollout record, not current installation guidance. The public source does not disclose internal budgets, employee work logs, or private customer commitments."
+  }
+]
